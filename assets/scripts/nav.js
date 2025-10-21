@@ -20,4 +20,20 @@ function initializeNavbar() {
   overlay.addEventListener("click", () => {
     button.click();
   });
+
+  const navbar = document.getElementById("main-navbar");
+  const scrollThreshold = 50;
+  if (navbar) {
+    const handleScroll = () => {
+      if (window.scrollY > scrollThreshold) {
+        navbar.classList.remove("lg:bg-transparent");
+        navbar.classList.add("lg:bg-gray-800", "shadow-md");
+      } else {
+        navbar.classList.add("lg:bg-transparent");
+        navbar.classList.remove("lg:bg-gray-800", "shadow-md");
+      }
+    };
+    window.addEventListener("scroll", handleScroll);
+    handleScroll();
+  }
 }
