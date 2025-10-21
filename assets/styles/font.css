@@ -2,3 +2,8 @@
    font-family: "clicker-script";
    src: url("../fonts/ClickerScript.ttf") format("truetype");
 }
+
+@font-face {
+   font-family: "playfair-display";
+   src: url("../fonts/PlayfairDisplay.ttf") format("truetype");
+}
