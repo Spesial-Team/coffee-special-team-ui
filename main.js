@@ -15,4 +15,5 @@ document.addEventListener("DOMContentLoaded", function () {
   app("about", "sections/about.html");
   app("menu", "sections/menu.html");
   app("location", "sections/location.html");
+  app("contact", "sections/contact.html");
 });
