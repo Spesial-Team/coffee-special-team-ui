@@ -11,4 +11,5 @@ document.addEventListener("DOMContentLoaded", function () {
   app("navbar", "layouts/nav.html").then(() => {
     initializeNavbar();
   });
+  app("header", "sections/banner.html");
 });
