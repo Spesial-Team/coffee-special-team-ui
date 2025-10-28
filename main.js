@@ -12,4 +12,5 @@ document.addEventListener("DOMContentLoaded", function () {
     initializeNavbar();
   });
   app("header", "sections/banner.html");
+  app("about", "sections/about.html");
 });
