@@ -1,0 +1,18 @@
+.card {
+   background-color: white;
+   /* padding: 1rem; */
+   border-radius: 0.5rem;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.text-primary {
+   color: oklch(40.8% 0.123 38.172);
+}
+
+.text-muted-foreground {
+   color: 25 30% 45%;
+}
+
+.text-accent {
+   color: 43 75% 65%;
+}

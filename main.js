@@ -13,4 +13,5 @@ document.addEventListener("DOMContentLoaded", function () {
   });
   app("header", "sections/banner.html");
   app("about", "sections/about.html");
+  app("menu", "sections/menu.html");
 });
