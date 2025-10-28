@@ -16,4 +16,6 @@ document.addEventListener("DOMContentLoaded", function () {
   app("menu", "sections/menu.html");
   app("location", "sections/location.html");
   app("contact", "sections/contact.html");
+  
+  app("footer", "layouts/footer.html");
 });
