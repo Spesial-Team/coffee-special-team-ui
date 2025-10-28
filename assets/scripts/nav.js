@@ -27,10 +27,10 @@ function initializeNavbar() {
     const handleScroll = () => {
       if (window.scrollY > scrollThreshold) {
         navbar.classList.remove("lg:bg-transparent");
-        navbar.classList.add("lg:bg-gray-800", "shadow-md");
+        navbar.classList.add("lg:bg-orange-950", "shadow-md");
       } else {
         navbar.classList.add("lg:bg-transparent");
-        navbar.classList.remove("lg:bg-gray-800", "shadow-md");
+        navbar.classList.remove("lg:bg-orange-950", "shadow-md");
       }
     };
     window.addEventListener("scroll", handleScroll);
